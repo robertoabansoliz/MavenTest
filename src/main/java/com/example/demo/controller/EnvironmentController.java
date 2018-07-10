@@ -12,6 +12,6 @@ public class EnvironmentController {
     private Environment environment;
     @GetMapping("/environment")
     public String env() {
-        return "Estoy en el ambiente: " + environment.getActiveProfiles()[0];
+        return "Estoy en el ambiente: "+environment.getActiveProfiles()[0];
     }
 }
