@@ -11,7 +11,7 @@ import java.util.concurrent.atomic.AtomicLong;
 @Controller
 public class ControllerTest {
 
-    private static final String template = "Hello, gradle %s!";
+    private static final String template = "Hello, maven %s!";
     private final AtomicLong counter = new AtomicLong();
 
     @GetMapping("/hello-world")
